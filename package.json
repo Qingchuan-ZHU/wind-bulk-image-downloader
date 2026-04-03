@@ -1,0 +1,46 @@
+{
+  "name": "wind-bulk-image-downloader",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Wind-branded local-first Chrome and Edge extension for batch downloading images from opened web pages, built with AI assistance in OpenAI Codex.",
+  "license": "MIT",
+  "homepage": "https://github.com/Qingchuan-ZHU/wind-bulk-image-downloader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qingchuan-ZHU/wind-bulk-image-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qingchuan-ZHU/wind-bulk-image-downloader/issues"
+  },
+  "keywords": [
+    "wind",
+    "ai-assisted",
+    "openai",
+    "codex",
+    "gpt-5-4",
+    "chromium-extension",
+    "chrome-extension",
+    "edge-extension",
+    "image-downloader",
+    "bulk-image-downloader",
+    "bulk-download",
+    "open-tabs",
+    "local-first",
+    "manifest-v3"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1"
+  }
+}

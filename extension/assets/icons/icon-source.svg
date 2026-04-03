@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Wind brand icon">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eef6ff" />
+      <stop offset="1" stop-color="#d7e8ff" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="none" stroke="#c2d8fb" stroke-width="1.5" />
+  <path d="M11.5 43.5 L28.5 20.5" fill="none" stroke="#74b5ff" stroke-width="5" stroke-linecap="round" />
+  <path d="M23.5 43.5 L40.5 20.5" fill="none" stroke="#4f97ff" stroke-width="5" stroke-linecap="round" />
+  <path d="M35.5 43.5 L52.5 20.5" fill="none" stroke="#2f79f2" stroke-width="5" stroke-linecap="round" />
+</svg>

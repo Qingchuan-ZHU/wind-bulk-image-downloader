@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wind Bulk Image Downloader</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div class="hero-top">
+          <div class="brand-lockup">
+            <img
+              class="brand-icon"
+              src="assets/icons/icon-source.svg"
+              alt="Wind brand icon"
+              width="40"
+              height="40"
+            />
+            <div class="brand-copy">
+              <h1 data-i18n="heroTitle">Wind Bulk Image Downloader</h1>
+            </div>
+          </div>
+        </div>
+
+        <label class="language-switch" for="ui-language">
+          <span data-i18n="languageLabel">Language</span>
+          <select id="ui-language" name="uiLanguage">
+            <option value="zh-CN" data-i18n="languageOptionZh">中文</option>
+            <option value="en" data-i18n="languageOptionEn">EN</option>
+          </select>
+        </label>
+
+        <p class="hint" data-i18n="heroHint">
+          面向开源发布的浏览器扩展，会尝试读取当前已打开的普通网页（HTTP/HTTPS），按页面分文件夹下载符合条件的图片。
+        </p>
+      </header>
+
+      <form id="download-form">
+        <section class="panel">
+          <div class="section-head">
+            <h2 data-i18n="settingsTitle">下载设置</h2>
+            <div class="section-tools">
+              <button
+                id="save-button"
+                class="button-secondary button-compact"
+                type="button"
+                data-i18n="saveButton"
+              >
+                保存设置
+              </button>
+            </div>
+          </div>
+
+          <div class="field-grid">
+            <label class="field">
+              <span data-i18n="minWidthLabel">最小宽度（px）</span>
+              <input id="min-width" name="minWidth" type="number" min="1" step="1" required />
+            </label>
+
+            <label class="field">
+              <span data-i18n="minHeightLabel">最小高度（可清空）</span>
+              <input
+                id="min-height"
+                name="minHeight"
+                type="number"
+                min="1"
+                step="1"
+                placeholder="清空表示不限制"
+                data-i18n-placeholder="minHeightPlaceholder"
+              />
+            </label>
+          </div>
+
+          <label class="field">
+            <span data-i18n="rootFolderLabel">下载根目录</span>
+            <input id="root-folder" name="rootFolder" type="text" maxlength="80" required />
+            <small class="field-help" data-i18n="rootFolderHelp">
+              默认保存到浏览器下载目录下的 `wind_images` 子目录。
+            </small>
+          </label>
+
+          <label class="checkbox">
+            <input id="only-current-window" name="onlyCurrentWindow" type="checkbox" />
+            <span data-i18n="onlyCurrentWindowLabel">仅扫描当前浏览器窗口</span>
+          </label>
+        </section>
+
+        <div class="primary-action">
+          <button id="start-button" type="submit" data-i18n="startButton">开始下载</button>
+        </div>
+      </form>
+
+      <section class="panel result">
+        <div class="section-head">
+          <h2 data-i18n="statusTitle">运行状态</h2>
+          <span class="tag" data-i18n="statusTag">实时输出</span>
+        </div>
+        <pre id="status-output" aria-live="polite"></pre>
+      </section>
+
+      <section class="panel scope">
+        <div class="section-head">
+          <h2 data-i18n="scopeTitle">扫描说明</h2>
+          <span class="tag tag-muted" data-i18n="scopeTag">当前模式</span>
+        </div>
+        <ul class="tips">
+          <li data-i18n="scopeTip1">扫描全部已打开的普通网页（HTTP / HTTPS）。</li>
+          <li data-i18n="scopeTip2">跳过浏览器内部页、扩展页和无权限页面。</li>
+          <li data-i18n="scopeTip3">
+            最小宽度默认 `1200`，最小高度默认 `1200`，清空最小高度可关闭高度限制。
+          </li>
+          <li data-i18n="scopeTip4">下载结果会按页面归档，便于后续整理和二次处理。</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

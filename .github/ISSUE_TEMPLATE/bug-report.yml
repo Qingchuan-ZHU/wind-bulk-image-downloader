@@ -1,0 +1,38 @@
+name: Bug report
+description: 报告一个可复现的问题 / Report a reproducible problem
+title: '[Bug] '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请尽量提供可复现信息。
+        Thanks for reporting this issue. Please provide enough detail to reproduce it.
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述 / Summary
+      description: 发生了什么？What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 请按顺序描述操作步骤。List the exact steps.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器版本 / Browser version
+      placeholder: Chrome 135 / Edge 135
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果 / Expected behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果 / Actual behavior
