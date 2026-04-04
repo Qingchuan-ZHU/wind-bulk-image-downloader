@@ -1,13 +1,13 @@
 :root {
   color-scheme: light;
   font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-  --bg: #f3f6fb;
+  --bg: #fff7fb;
   --panel: #ffffff;
-  --panel-border: #dbe4f0;
+  --panel-border: #f0d7e4;
   --text: #14213d;
   --muted: #5b6b84;
-  --primary: #2f6df6;
-  --primary-hover: #2459d2;
+  --primary: #e54482;
+  --primary-hover: #c9346f;
   --status-bg: #111827;
   --status-text: #f8fafc;
 }
@@ -61,10 +61,10 @@ h2 {
 
 .brand-icon {
   flex: none;
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
-  box-shadow: 0 8px 18px rgba(47, 109, 246, 0.14);
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 22px rgba(229, 68, 130, 0.2);
 }
 
 .eyebrow {
@@ -99,7 +99,7 @@ h2 {
 
 .language-switch select {
   flex: 1;
-  border: 1px solid #c9d5e6;
+  border: 1px solid #e9c7d7;
   border-radius: 12px;
   min-width: 0;
   padding: 8px 10px;
@@ -114,7 +114,7 @@ h2 {
   border: 1px solid var(--panel-border);
   border-radius: 16px;
   background: var(--panel);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 12px 28px rgba(173, 45, 99, 0.08);
 }
 
 .section-head {
@@ -138,7 +138,7 @@ h2 {
   align-items: center;
   padding: 3px 8px;
   border-radius: 999px;
-  background: #e8f0ff;
+  background: #ffe5f0;
   color: var(--primary);
   font-size: 11px;
   font-weight: 600;
@@ -207,7 +207,7 @@ input[type='number'],
 input[type='text'] {
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #c9d5e6;
+  border: 1px solid #e9c7d7;
   border-radius: 12px;
   padding: 10px 12px;
   font-size: 13px;
@@ -227,8 +227,8 @@ input[type='checkbox'] {
 
 input:focus {
   outline: none;
-  border-color: #78a3ff;
-  box-shadow: 0 0 0 4px rgba(47, 109, 246, 0.16);
+  border-color: #f28db5;
+  box-shadow: 0 0 0 4px rgba(229, 68, 130, 0.14);
   background: #fff;
 }
 
@@ -242,12 +242,12 @@ button {
   border: none;
   border-radius: 14px;
   padding: 12px 14px;
-  background: linear-gradient(135deg, #3b82f6 0%, #2459d2 100%);
+  background: linear-gradient(135deg, #ff8db6 0%, #e54482 100%);
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.28);
+  box-shadow: 0 14px 30px rgba(229, 68, 130, 0.26);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
@@ -270,7 +270,7 @@ button {
 }
 
 .button-secondary {
-  background: #eef3fb;
+  background: #fff0f6;
   color: var(--text);
   box-shadow: none;
   border: 1px solid var(--panel-border);
@@ -286,15 +286,15 @@ button:active:not(:disabled) {
 }
 
 button:disabled {
-  background: #93c5fd;
+  background: #f5b8d0;
   box-shadow: none;
   cursor: wait;
 }
 
 .button-secondary:disabled {
-  background: #eef3fb;
+  background: #fff0f6;
   color: #8a94a6;
-  border-color: #d8dee9;
+  border-color: #f0d7e4;
 }
 
 .result pre {

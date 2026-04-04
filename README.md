@@ -16,12 +16,13 @@ Wind Bulk Image Downloader is a Wind-branded, local-first Chrome and Edge extens
 AI-assisted development note: this repository and its release copy were iterated in the OpenAI Codex app on Windows, using GPT-5.4 for coding assistance, README refinement, and release preparation.
 
 <p>
-  <img src="docs/assets/en/屏幕截图%202026-04-03%20204720.png" alt="Wind Bulk Image Downloader English popup" width="48%" />
-  <img src="docs/assets/en/屏幕截图%202026-04-03%20204732.png" alt="Wind Bulk Image Downloader English status panel" width="48%" />
+  <img src="docs/assets/en/屏幕截图%202026-04-04%20172437.png" alt="Wind Bulk Image Downloader English popup settings" width="48%" />
+  <img src="docs/assets/en/屏幕截图%202026-04-04%20172442.png" alt="Wind Bulk Image Downloader English status and scan scope" width="48%" />
 </p>
 
 <p>
-  <img src="docs/assets/en/屏幕截图%202026-04-03%20204845.png" alt="Wind Bulk Image Downloader live workflow on image search pages" width="96%" />
+  <img src="docs/assets/en/屏幕截图%202026-04-04%20172541.png" alt="Wind Bulk Image Downloader running on an opened image site" width="48%" />
+  <img src="docs/assets/en/屏幕截图%202026-04-04%20172647.png" alt="Wind Bulk Image Downloader download results in a local folder" width="48%" />
 </p>
 
 ## Why It Stands Out

@@ -16,12 +16,13 @@ Wind 图片批量下载器是一个带有 Wind 品牌、本地优先的 Chrome /
 AI 开发说明：本仓库及其发布文案在 Windows 版 OpenAI Codex App 中持续迭代，使用 OpenAI GPT-5.4 进行编码辅助、README 优化和发布整理。
 
 <p>
-  <img src="docs/assets/zh/屏幕截图%202026-04-03%20204705.png" alt="Wind 图片批量下载器中文界面" width="48%" />
-  <img src="docs/assets/zh/屏幕截图%202026-04-03%20204711.png" alt="Wind 图片批量下载器中文状态面板" width="48%" />
+  <img src="docs/assets/zh/屏幕截图%202026-04-04%20171215.png" alt="Wind 图片批量下载器中文设置界面" width="48%" />
+  <img src="docs/assets/zh/屏幕截图%202026-04-04%20171223.png" alt="Wind 图片批量下载器中文状态与扫描说明" width="48%" />
 </p>
 
 <p>
-  <img src="docs/assets/zh/屏幕截图%202026-04-03%20205902.png" alt="Wind 图片批量下载器中文实战场景" width="96%" />
+  <img src="docs/assets/zh/屏幕截图%202026-04-04%20172159.png" alt="Wind 图片批量下载器中文实战运行界面" width="48%" />
+  <img src="docs/assets/zh/屏幕截图%202026-04-04%20172326.png" alt="Wind 图片批量下载器本地下载结果目录" width="48%" />
 </p>
 
 ## 为什么值得公开发布
